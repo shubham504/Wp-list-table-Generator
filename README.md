@@ -1,4 +1,4 @@
-# WordPress Code Generator
+# WordPress WP List Table
 
 ## Current Generators
 
