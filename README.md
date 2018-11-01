@@ -10,7 +10,8 @@
 ################# ------WP List Table----####################
 
  
-    
+## wp-list-core
+
     <?php
     
     if ( ! class_exists ( 'WP_List_Table' ) ) {
@@ -20,7 +21,7 @@
     /**
      * List table class
      */
-    class Table_class extends \WP_List_Table {
+    class Table_class extends WP_List_Table {
     
         function __construct() {
             parent::__construct( array(
@@ -195,6 +196,10 @@
     
     //////////////////////////////--------------function-------------//////////
     
+## Function getvaluees    
+    
+    
+    
 
     <?php /**
      * Get all book
@@ -214,7 +219,16 @@
      * @return array
      */  function wp_get_book( $id =  0  )  {  global $wpdb;  return $wpdb->get_row( $wpdb->prepare(  'SELECT * FROM '  . $wpdb->prefix .  'book_db WHERE id = %d', $id )  );  }
      
+     
+     
+     
+     
+     
+     
      ////////////////////////////----------------------html---------------------//////////////////////
+ ## HTML tabel view     
+     
+     
      
      
      <div class="wrap">
