@@ -1,2 +1,10 @@
-# WordPress-Code-Generator
-WordPress Code Generator (for admin)-------->  ( Menu Page ,WP List Table , Form Table)
+# WordPress Code Generator
+
+## Current Generators
+
+ * Settings Menu page with Handlers
+ * WP List Table
+ * Form Generator (new/edit)
+
+## Author
+[Tareq Hasan](http://tareq.wedevs.com)
